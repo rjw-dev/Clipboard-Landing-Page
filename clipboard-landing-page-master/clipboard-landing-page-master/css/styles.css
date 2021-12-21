@@ -1,0 +1,376 @@
+body{
+  font-family: 'Bai Jamjuree', sans-serif;
+  background-image: url("../images/bg-header-desktop.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+p, h6{
+  color: hsl(201, 11%, 66%);
+}
+
+h1,h2,h3,h4{
+  color: hsl(210, 10%, 33%);
+}
+
+.section-one{
+
+}
+
+.section-one-header{
+  text-align: center;
+}
+
+.logo{
+  display: block;
+  margin: 5% auto 5% auto;
+}
+
+.section-one-p{
+  text-align: center;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.cta-one{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ios{
+  border-radius: 16px;
+  width: 155px;
+  height: 35px;
+  border: none;
+  color: white;
+  background-color: hsl(171, 66%, 44%);
+  margin-right: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mac{
+  border-radius: 16px;
+  width: 155px;
+  height: 35px;
+  border: none;
+  color: white;
+  background-color: hsl(233, 100%, 69%);
+  margin-left: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mac:hover{
+ cursor: pointer;
+}
+
+.ios:hover{
+  cursor: pointer;
+}
+
+.section-two-heading{
+  text-align: center;
+  margin-top: 6%;
+}
+
+.section-two-p{
+  text-align: center;
+  font-size: 16px;
+  padding: 0 34%;
+}
+
+.quick-search-text{
+  padding: 0 45% 0 0;
+}
+
+.icloud-text{
+  padding: 0 45% 0 0;
+}
+
+.history-text{
+  padding-right: 45%;
+}
+
+.section-three{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 6%;
+}
+
+.section-three-text{
+  margin-top: 5%;
+  margin-right: 20%;
+}
+
+.image-computer{
+  position: relative;
+  right: 10%;
+}
+
+.section-four{
+  margin-top: 8%;
+}
+
+.section-four-head{
+  text-align: center;
+}
+
+.section-four-p{
+  text-align: center;
+  padding: 0 33%;
+}
+
+
+.image-devices{
+  display: block;
+  margin: 5% auto;
+}
+
+.section-five-head{
+  text-align: center;
+}
+
+.section-five-p{
+  text-align: center;
+}
+
+.section-six{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5% 10% 0 10%;
+}
+
+.feature-one, .feature-two, .feature-three{
+  text-align: center;
+}
+
+.section-seven{
+  text-align: center;
+  margin: 10% 0;
+}
+
+.logo-google, .logo-ibm, .logo-microsoft, .logo-hp, .logo-vector-graphics{
+  padding: 0 3%;
+}
+
+.section-eight-p{
+  padding: 0 34%;
+}
+
+.section-eight-p, .section-eight-header{
+  text-align: center;
+}
+
+.cta-two{
+  text-align: center;
+  margin: 3% 0 9% 0;
+}
+
+.section-nine{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #DCDCDC;
+  padding: 0 10%;
+}
+
+h4:hover{
+  cursor: pointer;
+  color: hsl(171, 66%, 44%);
+}
+
+.footer-logo{
+  width: 50%;
+  padding-top: 15%;
+}
+
+footer{
+  background-color: #DCDCDC;
+}
+
+.footer-column-five{
+  margin-top: 20px;
+}
+
+.attribution{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 2% 0;
+}
+
+.fa{
+  font-size: 2em;
+  padding: 0 10px;
+}
+
+.fa:hover{
+  cursor: pointer;
+  color: hsl(171, 66%, 44%);
+}
+
+
+
+@media only screen and (max-width: 375px) {
+
+  body{
+    background-image: url("../images/bg-header-mobile.png");
+  }
+
+  .logo {
+    margin: 30% auto 15%;
+  }
+
+  .ios, .mac{
+    display: block;
+    margin: 2% auto;
+    border-radius: 20px;
+    width: 260px;
+    height: 40px;
+  }
+
+  .section-one-header{
+    padding: 0 4%;
+  }
+
+  .section-one-p{
+    padding: 0 11.5%;
+    margin: 0;
+  }
+
+  .cta-one{
+    margin: 8% auto 30%;
+  }
+
+  .section-two-heading{
+    padding: 0 10%;
+  }
+
+  .section-two-p{
+    padding: 0 8%;
+  }
+
+  .section-three{
+    display: block;
+  }
+
+  .image-computer{
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 15%;
+    position:static !important;
+  }
+
+  .section-three-text{
+    display: block;
+    text-align: center;
+    margin: 15% 0 0 0;
+  }
+
+  .quick-search-text{
+    padding: 0 6%;
+  }
+
+  .icloud-text{
+    padding: 0 9%;
+  }
+
+  .history-text{
+    padding: 0 7%;
+  }
+
+  .section-four{
+    margin-top: 50%;
+  }
+
+  .section-four-head{
+    padding: 0 8%;
+  }
+
+  .section-four-p{
+    padding: 0 7%;
+  }
+
+  .image-devices{
+    width: 90%;
+    margin: 15% auto 0 auto;
+  }
+
+  .section-five-head{
+    margin-top: 25%;
+    padding: 0 10%;
+  }
+
+  .section-five-p{
+    padding: 0 5%;
+  }
+
+  .section-six{
+    display: block;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+
+  .p-icon-text{
+    padding: 0 3%;
+  }
+
+  .p-blacklist{
+    padding: 0 4%;
+  }
+
+  .p-preview{
+    padding: 0 3%;
+  }
+
+  .feature-one, .feature-two, .feature-three{
+    margin: 10% 0;
+  }
+
+  .logo-google, .logo-ibm, .logo-microsoft, .logo-hp, .logo-vector-graphics{
+    display: block;
+    margin: 15% auto;
+  }
+
+  .section-eight{
+    margin-top: 25%;
+  }
+
+  .section-eight-header{
+    padding: 0 11%;
+  }
+
+  .section-eight-p{
+    padding: 0 9%;
+    margin-bottom: 10%;
+  }
+
+  .section-nine{
+    display: block;
+    text-align: center;
+    margin-bottom: -22px;
+  }
+
+  .footer-logo{
+    width: 20%;
+  }
+
+  .footer-column-four{
+    padding-bottom: 25px;
+  }
+
+  br{
+    display: none;
+  }
+
+  .footer-column-five{
+    padding-bottom: 10%;
+  }
+
+}
